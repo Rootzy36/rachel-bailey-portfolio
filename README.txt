@@ -1,12 +1,12 @@
-V14 - Rachel S. Bailey, M.U.P. Portfolio Website
-Updated South Gateway & Riverside proposal with revised realistic conceptual study-area imagery and adjusted labels.
+V17 - Rachel S. Bailey, M.U.P. Portfolio Website
 
-Rachel S. Bailey, M.U.P. Portfolio — Final Web Package
+Updated South Gateway & Riverside project page:
+- Current final proposal cover shown in the Proposal section.
+- Mock RFP retained as a separate procurement document.
+- Five post-award sample deliverables displayed as individual cards under the Proposal page.
+- Each deliverable card opens its own PDF.
+- ZIP/README/Word deliverable package removed from the public website.
 
 To test locally:
-1. Extract the entire ZIP.
-2. Keep all files/folders together.
-3. Open index.html in Chrome or Edge.
-
-All internal page, document, image, email, phone and navigation links have been checked.
-The site is static and is ready for free hosting when approved.
+1. Keep all files and folders together.
+2. Open index.html in Chrome or Edge.
