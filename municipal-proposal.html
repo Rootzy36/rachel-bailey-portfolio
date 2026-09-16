@@ -6,6 +6,20 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>South Gateway &amp; Riverside Mock Municipal Planning Proposal | Rachel S. Bailey</title>
 <link href="styles.css" rel="stylesheet"/>
+
+<style>
+.balanced-doc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:stretch}
+.balanced-doc-card{display:flex!important;flex-direction:column!important;padding:0!important;overflow:hidden;min-height:560px;height:100%;background:#fff}
+.doc-card-image{height:260px;min-height:260px;width:100%;overflow:hidden;background:#eaf1f5}
+.rfp-before-image{background-image:linear-gradient(rgba(255,255,255,.22),rgba(255,255,255,.22)),url('assets/south_gateway_before_card.jpg');background-size:cover;background-position:center}
+.proposal-cover-image{display:flex;align-items:center;justify-content:center;padding:12px;box-sizing:border-box}
+.proposal-cover-image img{width:100%;height:100%;object-fit:contain;display:block}
+.doc-card-content{padding:22px 24px 24px;display:flex;flex:1;flex-direction:column}
+.doc-card-content h3{margin-top:6px}
+.doc-card-content p{flex:1}
+.doc-card-content .btn{align-self:flex-start;margin-top:12px}
+@media(max-width:760px){.balanced-doc-grid{grid-template-columns:1fr}.balanced-doc-card{min-height:0}}
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -32,7 +46,7 @@
 <nav aria-label="South Gateway project sections" class="proposal-tabs">
 <div class="container proposal-tabs-inner">
 <a href="#overview">Project Overview</a>
-<a href="documents/City_of_Northfield_RFP_2026_PLN_07.pdf" target="_blank">Mock RFP</a>
+<a href="documents/City_of_Northfield_RFP_2026_PLN_07_FINAL_2026.pdf" target="_blank">Mock RFP</a>
 <a class="active" href="#proposal">Proposal</a>
 <a href="#deliverables">Deliverables</a>
 </div>
@@ -53,27 +67,27 @@
 </div>
 <p class="proposal-note"></p>
 </div>
-<div class="proposal-doc-grid"><article class="proposal-doc-card rfp-card">
-<div class="rfp-cover-text">
+<div class="proposal-doc-grid balanced-doc-grid">
+<article class="proposal-doc-card balanced-doc-card rfp-visual-card">
+<div class="doc-card-image rfp-before-image" aria-label="South Gateway and Riverside existing conditions before image"></div>
+<div class="doc-card-content">
 <div class="document-type">Procurement Document</div>
 <h3>City of Northfield Mock RFP</h3>
 <p>Fictional Request for Proposals used for this portfolio project, including project goals, nine-task scope, proposal instructions, evaluation criteria, administrative requirements, and a $325,000 budget ceiling.</p>
-<a class="btn outline" href="documents/City_of_Northfield_RFP_2026_PLN_07.pdf" target="_blank">View Mock RFP PDF ↗</a>
+<a class="btn outline" href="documents/City_of_Northfield_RFP_2026_PLN_07_FINAL_2026.pdf" target="_blank">View Mock RFP PDF ↗</a>
 </div>
 </article>
-<article class="proposal-doc-card proposal-main-card">
-<div class="proposal-cover-frame">
+<article class="proposal-doc-card balanced-doc-card proposal-visual-card">
+<div class="doc-card-image proposal-cover-image">
 <img alt="Final South Gateway and Riverside Neighborhood Revitalization Plan proposal cover" src="assets/proposal_cover_final.png"/>
 </div>
-<div class="proposal-doc-copy">
+<div class="doc-card-content">
 <div class="document-type">Final Proposal</div>
 <h3>South Gateway &amp; Riverside Neighborhood Revitalization Plan</h3>
 <p>Complete proposal response including project understanding, approach, scope of work, community engagement, schedule, team organization, fee development, and implementation strategy.</p>
-<a class="btn" href="documents/South_Gateway_Riverside_Revised_Proposal.pdf" target="_blank">View Proposal PDF ↗</a>
+<a class="btn" href="documents/South_Gateway_Riverside_Proposal_FINAL_2026.pdf" target="_blank">View Proposal PDF ↗</a>
 </div>
 </article>
-
-</div>
 </div>
 </section>
 <section class="deliverables-section" id="deliverables">
